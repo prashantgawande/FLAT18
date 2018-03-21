@@ -17,6 +17,8 @@ public class Course {
 	private int cid;
 	@Column
 	private String cname;
+        private String surname;
+          
 	public int getCid() {
 		return cid;
 	}
